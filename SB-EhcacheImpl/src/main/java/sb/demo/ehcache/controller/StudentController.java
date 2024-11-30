@@ -22,7 +22,7 @@ public class StudentController {
 	
 	@GetMapping(value = "/welcome")
 	public String welcome() {
-		System.out.println("welcome called for testing purpose....");
+		System.out.println("welcome starts");
 		return "Hello world";
 	}
 	
